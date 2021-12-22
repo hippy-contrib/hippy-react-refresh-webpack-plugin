@@ -74,6 +74,12 @@
     "library": { "type": "string" },
     "overlay": {
       "anyOf": [{ "type": "boolean" }, { "$ref": "#/definitions/OverlayOptions" }]
+    },
+    "test": {
+      "anyOf": [
+        { "$ref": "#/definitions/MatchCondition" },
+        { "$ref": "#/definitions/MatchConditions" }
+      ]
     }
   }
 }
