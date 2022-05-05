@@ -1,6 +1,6 @@
 {
   "name": "@hippy/hippy-react-refresh-webpack-plugin",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "An **EXPERIMENTAL** Webpack plugin to enable \"Fast Refresh\" (also previously known as _Hot Reloading_) for React components.",
   "keywords": [
     "react",
@@ -117,7 +117,7 @@
     "react-refresh": ">=0.10.0 <1.0.0",
     "sockjs-client": "^1.4.0",
     "type-fest": ">=0.17.0 <3.0.0",
-    "webpack": ">=4.43.0 <5.0.0",
+    "webpack": ">=4.43.0 <6.0.0",
     "webpack-dev-server": "3.x || 4.x",
     "webpack-hot-middleware": "2.x",
     "webpack-plugin-serve": "0.x || 1.x"
