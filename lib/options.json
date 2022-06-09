@@ -75,7 +75,7 @@
     "overlay": {
       "anyOf": [{ "type": "boolean" }, { "$ref": "#/definitions/OverlayOptions" }]
     },
-    "test": {
+    "fileTest": {
       "anyOf": [
         { "$ref": "#/definitions/MatchCondition" },
         { "$ref": "#/definitions/MatchConditions" }
